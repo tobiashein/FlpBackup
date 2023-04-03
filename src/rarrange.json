@@ -1,0 +1,664 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tobiashein/rarrange.schema/develop/rarrange.schema.json",
+  "catchAllRegion": true,
+  "endOfLineType": "default",
+  "headerRegion": true,
+  "addEndRegionNames": true,
+  "tabs": false,
+  "regions": true,
+  "groups": [
+    {
+      "regionName": "Constants",
+      "sorters": [
+        {
+          "type": "field",
+          "modifiers": [
+            "const"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        }
+      ]
+    },
+    {
+      "regionName": "Nested Types",
+      "sorters": [
+        {
+          "type": "nestedType",
+          "sortOrder": [
+            "NameAscending"
+          ]
+        }
+      ]
+    },
+    {
+      "regionName": "Constructors",
+      "sorters": [
+        {
+          "type": "constructor",
+          "modifiers": [
+            "static"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "constructor",
+          "sortOrder": [
+            "AccessModifierAscending",
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "destructor",
+          "sortOrder": [
+            "AccessModifierAscending",
+            "NameAscending"
+          ]
+        }
+      ]
+    },
+    {
+      "regionName": "Fields",
+      "groups": [
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Public"
+              ],
+              "modifiers": [
+                "readonly"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Public"
+              ],
+              "modifiers": [
+                "static"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Public"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Internal"
+              ],
+              "modifiers": [
+                "readonly"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Internal"
+              ],
+              "modifiers": [
+                "static"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Internal"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "ProtectedInternal"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Protected"
+              ],
+              "modifiers": [
+                "readonly"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Protected"
+              ],
+              "modifiers": [
+                "static"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Protected"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Private"
+              ],
+              "modifiers": [
+                "static",
+                "readonly"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            },
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Private"
+              ],
+              "modifiers": [
+                "readonly"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Private"
+              ],
+              "modifiers": [
+                "static"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "accessModifiers": [
+                "Private"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "sorters": [
+            {
+              "type": "field",
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionName": "Delegates",
+      "sorters": [
+        {
+          "type": "delegate",
+          "sortOrder": [
+            "NameAscending"
+          ]
+        }
+      ]
+    },
+    {
+      "regionName": "Events",
+      "sorters": [
+        {
+          "type": "event",
+          "accessModifiers": [
+            "Public",
+            "Internal"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "eventField",
+          "accessModifiers": [
+            "Public"
+          ],
+          "modifiers": [
+            "static"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "eventField",
+          "accessModifiers": [
+            "Public"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "eventField",
+          "accessModifiers": [
+            "Internal"
+          ],
+          "modifiers": [
+            "static"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "eventField",
+          "accessModifiers": [
+            "Internal"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "eventField",
+          "accessModifiers": [
+            "Protected"
+          ],
+          "modifiers": [
+            "static"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "eventField",
+          "accessModifiers": [
+            "Protected"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "eventField",
+          "accessModifiers": [
+            "Private"
+          ],
+          "modifiers": [
+            "static"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "eventField",
+          "accessModifiers": [
+            "Private"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        }
+      ]
+    },
+    {
+      "regionName": "Properties",
+      "sorters": [
+        {
+          "type": "property",
+          "accessModifiers": [
+            "Public"
+          ],
+          "modifiers": [
+            "static"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "property",
+          "accessModifiers": [
+            "Public"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "property",
+          "accessModifiers": [
+            "ExplicitInterfaceImplementation"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "property",
+          "accessModifiers": [
+            "Internal"
+          ],
+          "modifiers": [
+            "static"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "property",
+          "accessModifiers": [
+            "Internal",
+            "ProtectedInternal"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "property",
+          "accessModifiers": [
+            "Protected"
+          ],
+          "modifiers": [
+            "static"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "property",
+          "accessModifiers": [
+            "Protected"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "property",
+          "accessModifiers": [
+            "Private"
+          ],
+          "modifiers": [
+            "static"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "property",
+          "accessModifiers": [
+            "Private"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        },
+        {
+          "type": "property",
+          "sortOrder": [
+            "NameAscending"
+          ]
+        }
+      ]
+    },
+    {
+      "regionName": "Indexers",
+      "sorters": [
+        {
+          "type": "indexer",
+          "sortOrder": [
+            "NameAscending"
+          ]
+        }
+      ]
+    },
+    {
+      "regionName": "Methods",
+      "groups": [
+        {
+          "regionName": "Public Static Methods",
+          "sorters": [
+            {
+              "type": "operator",
+              "sortOrder": [
+                "NameAscending"
+              ]
+            },
+            {
+              "type": "conversionOperator",
+              "sortOrder": [
+                "NameAscending"
+              ]
+            },
+            {
+              "type": "method",
+              "accessModifiers": [
+                "Public"
+              ],
+              "modifiers": [
+                "static"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "regionName": "Protected Static Methods",
+          "sorters": [
+            {
+              "type": "method",
+              "accessModifiers": [
+                "Protected"
+              ],
+              "modifiers": [
+                "static"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "regionName": "Private Static Methods",
+          "sorters": [
+            {
+              "type": "method",
+              "accessModifiers": [
+                "Private"
+              ],
+              "modifiers": [
+                "static"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "regionName": "Public Methods",
+          "sorters": [
+            {
+              "type": "method",
+              "accessModifiers": [
+                "Public",
+                "ExplicitInterfaceImplementation"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "regionName": "Internal Methods",
+          "sorters": [
+            {
+              "type": "method",
+              "accessModifiers": [
+                "Internal"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "regionName": "Protected Methods",
+          "sorters": [
+            {
+              "type": "method",
+              "accessModifiers": [
+                "Protected"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "regionName": "Private Methods",
+          "sorters": [
+            {
+              "type": "method",
+              "accessModifiers": [
+                "Private"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        },
+        {
+          "regionName": "Private Protected Methods",
+          "sorters": [
+            {
+              "type": "method",
+              "accessModifiers": [
+                "PrivateProtected"
+              ],
+              "sortOrder": [
+                "NameAscending"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "regionName": "Other",
+      "sorters": [
+        {
+          "type": "method",
+          "accessModifiers": [
+            "ProtectedInternal"
+          ],
+          "sortOrder": [
+            "NameAscending"
+          ]
+        }
+      ]
+    }
+  ]
+}
